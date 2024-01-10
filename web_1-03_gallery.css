@@ -1,0 +1,161 @@
+*{margin:0px; padding: 0px; font:verdana}
+
+/*상단*/
+header
+{
+    width:100%;
+    text-align: center;
+    background-color: white;
+    position:fixed;
+}
+header > #basebox
+{
+    width:1180px;
+    height:120px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+}
+header > #basebox > .logo
+{
+    float:left;
+    position: absolute;
+    left:10 px; bottom: 15px;
+}
+.util
+{
+    position:absolute;
+    float:right;
+    right: 30px;
+    top: 20px;
+}
+.util > ul > li
+{
+    float:left;
+    list-style:none;
+    padding :5px
+}
+
+.util > ul > li > a
+{
+    color :lightgray;
+    text-decoration: none;
+    font-size:small
+}
+.global
+{
+    position: absolute;
+    float:right;
+    right:0px;
+    bottom:0px;
+}
+.global > ul > li
+{
+    float:left;
+    list-style: none;
+    padding: 15px 30px;
+}
+
+.global > ul > li > a
+{
+    color:black;
+    text-decoration: none;
+}
+.global > ul > li > a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+/*메인*/
+section
+{
+    position: static;
+    width: 1000px;
+    height: auto;
+    margin:0px auto;
+}
+
+article
+{
+    float:left;
+    position: relative;
+    top:120px;
+    margin:5px;
+}
+
+/*top*/
+.art1
+{
+    width: 700px;
+    height: 400px;
+    background-image: url("700x400.png");
+    margin-left: 0px;
+}
+.art2
+{
+    width: 290px;
+    height: 190px;
+    background-image: url("290x190.png");
+    margin-right: 0px;
+}
+.art3-1 , .art3-2
+{
+    width: 290px;
+    height: 95px;
+    margin-right: 0px;
+}
+.art3-1
+{
+    background-image: url("290x95-1.png");
+}
+.art3-2
+{
+    background-image: url("290x95-2.png");
+}
+/*mid*/
+.art4
+{
+    width: 495px;
+    height: auto;
+    margin: 0px;
+}
+.art4-1 , .art4-2
+{
+    width: 490px;
+    height:240px;
+    margin-left: 0px;
+    position: static;
+}
+.art4-1
+{
+    background-image: url("490x240-1.png");
+}
+.art4-2
+{
+    background-image: url("490x240-2.png");
+    bottom:0px;
+}
+.art5
+{
+    width:500px;
+    height:490px;
+    margin-right: 0px;
+    background-image: url("500x490.png");
+}
+/*bot*/
+.art6 , .art7
+{
+    margin:5px 0px;
+}
+.art6
+{
+    width:1000px;
+    height:371px;
+    background-image: url("1000x371.png");
+}
+.art7
+{
+    width:1000px;
+    height:361px;
+    background-image: url("1000x361.png");
+}

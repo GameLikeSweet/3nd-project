@@ -1,0 +1,177 @@
+*{margin:0px; padding: 0px; font:verdana}
+
+/*상단*/
+header
+{
+    width:100%;
+    text-align: center;
+}
+header > #basebox
+{
+    width:1180px;
+    height:120px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+}
+header > #basebox > .logo
+{
+    float:left;
+    position: absolute;
+    left:10 px; bottom: 15px;
+}
+.util
+{
+    position:absolute;
+    float:right;
+    right: 30px;
+    top: 20px;
+}
+.util > ul > li
+{
+    float:left;
+    list-style:none;
+    padding :5px
+}
+
+.util > ul > li > a
+{
+    color :lightgray;
+    text-decoration: none;
+    font-size:small
+}
+.global
+{
+    position: absolute;
+    float:right;
+    right:0px;
+    bottom:0px;
+}
+.global > ul > li
+{
+    float:left;
+    list-style: none;
+    padding: 15px 30px;
+}
+
+.global > ul > li > a
+{
+    color:black;
+    text-decoration: none;
+}
+.global > ul > li > a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+
+/*메인*/
+.main_img
+{
+    width:100%;
+    height:590px;
+    background-image: url("bg_main.png");
+}
+.main_img > .innerbox
+{
+    width:800px;
+    height: 300px;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    padding-top:150px;
+    margin:auto auto;
+}
+.main_img > .innerbox > h1
+{
+    font-size:80px;
+}
+section
+{
+    margin:0px auto;
+    width:1180px;
+    height: 450px;    
+}
+section > .title
+{
+    text-align: center;
+    margin:30px auto;
+}
+section > .main
+{
+    height:350px;
+    margin:0px auto;
+}
+article
+{
+    float:left;
+    padding:32.5px;
+    width:230px;
+}
+
+article > .img
+{
+    width:230px;
+    height: 163px;
+}
+article > .text
+{
+    width:230px;
+}
+/*하단*/
+footer
+{
+    width:100%;
+    background-color: darkgrey;
+}
+
+footer > .innerbox
+{
+    width:1000px;
+    height:100px;
+    position: relative;
+    margin:0px auto;
+    color:lightgray;
+}
+
+footer > .innerbox > h1
+{
+    position:absolute;
+    float: left;
+    left:10px;
+    bottom:15px;
+}
+
+footer > .innerbox > ul
+{
+    float:right;
+    position:absolute;
+    right: 20px;
+    bottom:15px;
+}
+footer > .innerbox > ul > li
+{
+    list-style: none;
+    float:left;
+    padding :5px;
+}
+footer > .innerbox > ul > li > a
+{
+    text-decoration: none;
+    color:lightgray;
+}
+
+footer > .innerbox > ul > li > a:hover
+{
+    text-decoration: underline;
+    color:white;
+}
+
+footer > .bottom
+{
+    width:1000px;
+    padding:15px;
+    margin:0px auto;
+    font-size: small;
+    color:lightgray;
+}
