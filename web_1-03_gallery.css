@@ -81,6 +81,8 @@ article
     position: relative;
     top:120px;
     margin:5px;
+    color:white;
+    font-size: 30px;
 }
 
 /*top*/
@@ -91,6 +93,12 @@ article
     background-image: url("700x400.png");
     margin-left: 0px;
 }
+.art1 > div
+{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+}
 .art2
 {
     width: 290px;
@@ -98,11 +106,18 @@ article
     background-image: url("290x190.png");
     margin-right: 0px;
 }
+.art2 > div
+{
+    position: absolute;
+    top: 50px;
+    left:10px;
+}
 .art3-1 , .art3-2
 {
     width: 290px;
     height: 95px;
     margin-right: 0px;
+    
 }
 .art3-1
 {
@@ -111,6 +126,13 @@ article
 .art3-2
 {
     background-image: url("290x95-2.png");
+}
+
+.art3-1 > div
+{
+    position: absolute;
+    right:10px;
+    bottom:20px;
 }
 /*mid*/
 .art4
@@ -130,12 +152,37 @@ article
 {
     background-image: url("490x240-1.png");
 }
+.art4-1 > div
+{
+    color:black;
+    width:300px;
+    position: absolute;
+    top:160px;
+    left:95px;
+    margin:0px auto;
+    font-size:medium;
+}
 .art4-2
 {
     background-image: url("490x240-2.png");
     bottom:0px;
 }
+.art4-2 > div
+{
+    position: absolute;
+    right:20px;
+    bottom:30px;
+    font-size: 30px;
+    color:gold;
+}
 .art5
+{
+    width:500px;
+    height:490px;
+    margin-right: 0px;
+    background-image: url("500x490.png");
+}
+.art5 > div
 {
     width:500px;
     height:490px;
@@ -153,9 +200,38 @@ article
     height:371px;
     background-image: url("1000x371.png");
 }
+.art6 > div
+{
+    position:absolute;
+    font-size: 50px;
+    top:152.2px;
+    left:250px;
+}
 .art7
 {
     width:1000px;
     height:361px;
     background-image: url("1000x361.png");
+}
+.art7 > div
+{
+    width:450px;
+    height:150px;
+    position: absolute;
+    right:30px;
+    bottom:40px;
+    font-size: 20px;
+}
+.art7 > div > h1
+{
+    font-size: 30px;
+    display:inline;
+}
+
+footer
+{
+    position:relative;
+    height:200px;
+    width:100%;
+    float:left;
 }
